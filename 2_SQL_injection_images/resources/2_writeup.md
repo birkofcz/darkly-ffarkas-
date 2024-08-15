@@ -7,7 +7,7 @@
 <b>attacked site</b>: http://borntosec.42/?page=images
 
 ## Exploit
-On the images page, there’s a search bar similar to the one on the members page. After some initial examination, we can see that we are interacting with the same database but a different schema: (<code>1 OR 1=1 UNION SELECT 1,database()-- -</code>):
+On the images page, there’s a search bar similar to the one on the members page. After some initial examination, we can see that we are interacting with the same database but a different schema:
 ``` sql
 1 OR 1=1 UNION SELECT 1,database()-- -
 ```
