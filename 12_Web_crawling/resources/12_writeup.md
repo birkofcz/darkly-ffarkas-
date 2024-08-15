@@ -25,16 +25,16 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 6.62 seconds
 ```
-When accessing <code>http://borntosec.42/.hidden</code>, we find the site contains many subsites, each with a <code>README</code> file. One of these files likely contains the flag. Instead of manually checking each file, we use a Python script to automate the crawling process:
+When accessing <code>http://borntosec.42/.hidden</code>, we find the site contains many subsites, each with a <code>README</code> file. One of these files likely contains the flag. Instead of manually checking each file, we create a Python script to automate the crawling process:
 ``` shell
-└─$ python3 crawler.py 
+└─$ python3 crawler.py http://192.168.56.106/.hidden/ README flag
 
        / _ \
      \_\(_)/_/     Starting crawler at http://192.168.56.106/.hidden/
-      _//o\\_      looking for README containing 'flag'
+      _//o\\_      looking for file README containing keyword 'flag'
        /   \
 
-Checking http://192.168.56.106/.hidden/whtccjokayshttvxycsvykxcfm/igeemtxnvexvxezqwntmzjltkt/lmpanswobhwcozdqixbowvbrhw/README
+Checking http://192.168.56.106/.hidden/whtccjokayshttvxycsvykxcfm/vsjtwjnsblouvdzmhzwwfiwimv/xhytouigdvshzvldngdskfmkpf/README
 ```
 After some time, a match is found, and we receive the flag:
 ``` shell
