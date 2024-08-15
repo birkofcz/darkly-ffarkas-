@@ -3,7 +3,7 @@
 - the attacker first injects SQL code and then manipulates the web application logic, either by changing the original query or executing a completely new one
 - https://book.hacktricks.xyz/pentesting-web/sql-injection
 
-<b>keywords</b>: SQL basic<br>
+<b>keywords</b>: SQL<br>
 <b>attacked site</b>: http://borntosec.42/?page=images
 
 ## Exploit
