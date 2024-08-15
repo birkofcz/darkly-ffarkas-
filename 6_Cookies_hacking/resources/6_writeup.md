@@ -70,3 +70,9 @@ Good job! Flag : df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c
 
 ## Flag
 df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
+
+## Exploit prevention
+- set HttpOnly attribute on cookies to prevent users from accessing them
+- regenerate session IDs
+- implement session timeout
+- use stronger algorithm to hash session cookies

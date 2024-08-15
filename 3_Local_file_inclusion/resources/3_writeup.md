@@ -29,3 +29,8 @@ Congratulaton!! The flag is : b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a
 
 ## Flag
 b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a63196ec1c8c1d0
+
+## Exploit prevention
+- validate user input
+- use absolute paths (specify the full path on the server)
+- restrict file inclusion

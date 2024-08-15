@@ -58,3 +58,8 @@ The flag is : f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
 ```
 ## Flag
 f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
+
+## Exploit prevention
+- validate and sanitize incoming headers
+- verify the origin of requests on the server
+- maintain session logs and monitor unexpected header changes

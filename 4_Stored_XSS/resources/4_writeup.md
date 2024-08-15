@@ -29,3 +29,9 @@ The flag is : 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e
 
 ## Flag
 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e
+
+## Exploit prevention
+- validate user input
+- encode output to prevent the browser from interpreting it as executable code
+- disable inline JS
+- store and validate the input in a database

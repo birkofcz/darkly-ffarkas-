@@ -151,3 +151,8 @@ Finally, we hash the password in lowercase using SHA-256:
 ```
 ## Flag
 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5
+
+## Exploit prevention
+- validate and sanitize input
+- use prepared statements (separate SQL logic from data)
+- ensure that the database user account used by the application has the minimum necessary permissions

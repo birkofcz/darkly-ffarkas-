@@ -45,3 +45,8 @@ Hey, here is your flag : d5eec3ec36cf80dce44a896f961c1831a05526ec215693c8f2c3954
 ```
 ## Flag
 d5eec3ec36cf80dce44a896f961c1831a05526ec215693c8f2c39543497d4466
+
+## Exploit prevention
+- configure the robots.txt file to specify which parts of the site should not be crawled by automated tools
+- restrict access to sensitive directories and files
+- limit the number of requests that can be made from a single IP address 

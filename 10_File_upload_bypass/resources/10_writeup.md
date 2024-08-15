@@ -43,3 +43,8 @@ The flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
 
 ## Flag
 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
+
+## Exploit prevention
+- validate filenames and check for permitted file types
+- use server-side file type validation
+- ensure that uploaded files are not executable 

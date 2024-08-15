@@ -55,3 +55,9 @@ The flag is : 928d819fc19405ae09921a2b71227bd9aba106f9d2d37ac412e9e5a750f1506d
 
 ## Flag
 928d819fc19405ae09921a2b71227bd9aba106f9d2d37ac412e9e5a750f1506d
+
+## Exploit prevention
+- validate user input
+- encode output to prevent the browser from interpreting it as executable code
+- disable inline JS
+- validate and encode URLs

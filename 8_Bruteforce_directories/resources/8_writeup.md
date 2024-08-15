@@ -91,3 +91,7 @@ The flag is : d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff
 
 ## Flag
 d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff
+
+## Exploit prevention
+- do not store sensitive data in accessible files
+- ensure that sensitive directories are protected (authentication mechanism)

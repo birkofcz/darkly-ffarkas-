@@ -40,3 +40,8 @@ The flag is : 1d4855f7337c0c14b6f44946872c4eb33853f40b2d54393fbe94f49f1e19bbb0
 
 ## Flag
 1d4855f7337c0c14b6f44946872c4eb33853f40b2d54393fbe94f49f1e19bbb0
+
+## Exploit prevention
+- use unique tokens for password reset links
+- implement rate limiting for password reset requests
+- adopt CAPTCHA to prevent automated abuse

@@ -32,3 +32,10 @@ The flag is : b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2
 
 ## Flag
 b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2
+
+## Exploit prevention
+- do not display login credentials directly in URLs
+- limit the number of failed login attempts (temporarily ban the account)
+- limit the rate of login attempts from a single IP address
+- use strong password policies
+- employ CAPTCHA
